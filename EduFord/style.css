@@ -175,3 +175,32 @@ h3{
         flex-direction: column;
     }
 }
+
+.campus{
+    width: 80px;
+    margin:auto;
+    text-align: 50px;
+    padding-top: 50px;
+
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+.layer{
+    background:transparent;
+    width: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    transition: 0.5s;
+
+}
+.layer:hover{
+    background: lightcoral;
+    padding:16px;
+}
+
+
