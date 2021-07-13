@@ -189,8 +189,13 @@ h3{
     margin-bottom: 30px;
     position: relative;
   }
+  .campus-col img{
+    
+      display: block;
+  }
 .layer{
     background:transparent;
+    height: 100%;
     width: 100%;
     position:absolute;
     top:0;
@@ -200,7 +205,27 @@ h3{
 }
 .layer:hover{
     background: lightcoral;
-    padding:16px;
+    
+}
+img{
+    padding:26px;
+    left: 100%;
+}
+.layer {
+    width: 100%;
+    font-weight: 500;
+    color:#fff;
+    font-size: 26px;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    bottom: 49%;
+    opacity:1;
 }
 
 
